@@ -40,7 +40,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'auth_tienda',
     'rest_framework',
+    'drf_spectacular',
 ]
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Alquiler de trajes y disfraces',
+    'DESCRIPTION': 'Alquiler y Confección de trajes típicos y disfraces',
+    'VERSION': '1.0.0',
+    'SWAGGER_UI_DIST': 'SIDECAR',  # shorthand to use the sidecar instead
+    'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
+    'REDOC_DIST': 'SIDECAR',
+}
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME'    : timedelta(minutes=30),
@@ -70,7 +80,9 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_AUTHENTICATION_CLASSES' : (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
+    ),
+    'DEFAULT_SCHEMA_CLASS': ('drf_spectacular.openapi.AutoSchema'
+    ),
 }
 
 AUTH_USER_MODEL = 'auth_tienda.User'
