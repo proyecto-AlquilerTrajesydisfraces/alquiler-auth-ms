@@ -1,8 +1,8 @@
 # Proyecto de Ciclo IV: Tienda alquiler trajes y disfraces - arquitectura microservicios
 Este proyecto está enfocado en la creación de una aplicación web que permita de forma sistemática el almacenamiento y gestion de inventarios de productos elaborados por las comunidades indigenas del pais y en una versión siguiente de manera adicional se planea mejorar el frontend con imagenes referentes a cada producto ingresado.
 
-### Backend: autenticación de usuarios
-para la realizacion de este microservicio se utilizo el framework django, con el lenguaje de programacion python, las pruebas correspondientes se realizaron en postman 
+### Backend 1: autenticación de usuarios
+para la realizacion de este microservicio se utilizo el framework django, con el lenguaje de programacion python y sistema de base de datos SQL PostgreSQL, las pruebas correspondientes se realizaron en postman 
 
 ### Contenido de Este repositorio: 
 
@@ -56,7 +56,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 la parte sombreada hace referencia al despliegue de componentes de la parte backend del proyecto
 
-![image](https://user-images.githubusercontent.com/84297258/175609307-797dc175-4444-45ec-85a6-5427f8d98a48.png)
+![image](https://user-images.githubusercontent.com/84297258/176787332-7f58fefe-1a3d-4f89-8e51-40c14f7a96d5.png)
 
 
 ### Documentación de API
