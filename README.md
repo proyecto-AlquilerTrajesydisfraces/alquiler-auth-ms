@@ -48,6 +48,8 @@ para ejecutar el proyecto en local:
    ```
     python manage_dev.py runserver 
    ```
+Es posible comprobar su funcionamiento en local ingresando a la url asignada http://localhost:8000.
+
 El proyecto se encuentra desplegado en la plataforma heroku:
 
 https://tienda-tyd-auth-ms.herokuapp.com/
