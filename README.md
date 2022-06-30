@@ -50,7 +50,7 @@ para ejecutar el proyecto en local:
    ```
 El proyecto se encuentra desplegado en la plataforma heroku:
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://tienda-tyd-auth-ms.herokuapp.com/
 
 ### Diagrama de despliegue 
 
